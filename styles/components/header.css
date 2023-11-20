@@ -1,0 +1,117 @@
+.header {
+}
+.header nav {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+  border: 1px solid var(--clr-amber600);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  z-index: 9999;
+}
+
+.header-icon {
+  font-size: var(--size-xl);
+  text-decoration: none;
+  font-weight: 800;
+  color: var(--clr-amber);
+  transition: transform 0.3s, color 0.3s;
+}
+.header-icon:hover {
+  transform: translateY(-3px);
+  color: var(--clr-amber200);
+}
+
+.header-menu,
+.header-wrapper {
+  display: none;
+}
+
+.header-bars {
+  display: block;
+  color: var(--clr-light);
+  width: var(--size-2xl);
+  height: var(--size-2xl);
+}
+
+/* xs   */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {}  */
+
+/* md  */
+@media (min-width: 768px) {
+  .header-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 2em;
+  }
+  .header-link {
+    font-size: var(--size-xs);
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--clr-slate);
+    letter-spacing: -0.05em;
+    transition: color 0.3s;
+  }
+  .header-link:hover {
+    color: var(--clr-amber);
+  }
+
+  .header-wrapper {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-line {
+    border: 1px solid var(--clr-slate600);
+    padding-top: 1.5em;
+  }
+  .header-search {
+    display: block;
+    color: var(--clr-slate600);
+    width: var(--size-base);
+    height: var(--size-base);
+  }
+  .header-signIn {
+    font-size: var(--size-xs);
+  }
+  .header-bars {
+    display: none;
+  }
+}
+
+/* lg  */
+@media (min-width: 1024px) {
+  .header-link {
+    font-size: var(--size-sm);
+  }
+
+  .header-search {
+    width: var(--size-xl);
+    height: var(--size-xl);
+  }
+
+  .header-bars {
+    font-size: var(--size-sm);
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .container {
+    margin: 2rem 10rem;
+  }
+}
+
+/* 2xl   */
+/* @media (min-width: 1536px) {} */
