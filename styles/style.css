@@ -1,5 +1,5 @@
-:root{
-    /* colors  */
+:root {
+  /* colors  */
   --clr-dark: #070a13;
   --clr-light: #f1f5f9;
   --clr-slate400: #94a3b8;
@@ -8,15 +8,17 @@
   --clr-rose: #e11d48;
   --clr-indigo: #4f46e5;
   --clr-sky: #67e8f9;
-  --clr-amber200 :#fde68a;
-  --clr-amber : #f59e0b;
-  --clr-amber600 : #d97706;
-  --clr-amber950 : #451a03;
-  --clr-amber-dark : #160E06;
+  --clr-amber200: #fde68a;
+  --clr-amber: #f59e0b;
+  --clr-amber600: #d97706;
+  --clr-amber950: #451a03;
+  --clr-amber-dark: #160e06;
 
   /* yellow -  rgb(234, 179, 8) */
-  
-    /* sizes */
+  /* rose rgb(225, 29, 72) */
+  /* indigo rgb(79, 70, 229) */
+
+  /* sizes */
   --size-xxs: 0.5rem;
   --size-xs: 0.75rem;
   --size-sm: 0.875rem;
@@ -34,19 +36,19 @@
   --size-10xl: 10rem;
 }
 
-*{
-    margin: 0; 
-    line-height: calc(1em + 0.5rem);
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-    font-family: 'Cabinet Grotesk', sans-serif;
-    background: var(--clr-amber-dark);
-    color: var(--clr-light);
+body {
+  font-family: "Cabinet Grotesk", sans-serif;
+  background: var(--clr-amber-dark);
+  color: var(--clr-light);
 }
 img,
 picture,
@@ -58,18 +60,17 @@ svg {
   user-select: none;
 }
 
-
 button {
-    display: inline-block;
-    padding: 0;
-    border: 0;
-    background: none;
-    cursor: pointer;
-    color: inherit;
-  }
-  a {
-    color: var(--clr-rose);
-  }
-  strong {
-    color: var(--clr-indigo);
-  }
+  display: inline-block;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+a {
+  color: var(--clr-rose);
+}
+strong {
+  color: var(--clr-amber);
+}
