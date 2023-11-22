@@ -13,6 +13,8 @@
   --clr-amber600: #d97706;
   --clr-amber950: #451a03;
   --clr-amber-dark: #160e06;
+  --clr-amber800: #8f5c28;
+  --clr-cream: #efdfc5;
 
   /* yellow -  rgb(234, 179, 8) */
   /* rose rgb(225, 29, 72) */
@@ -46,6 +48,7 @@ html {
 }
 
 body {
+  min-width: 430px;
   font-family: "Cabinet Grotesk", sans-serif;
   background: var(--clr-amber-dark);
   color: var(--clr-light);

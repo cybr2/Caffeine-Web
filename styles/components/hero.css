@@ -1,4 +1,4 @@
-.hero {
+.hero-wrapper {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -62,7 +62,7 @@
 
 /* xs   */
 @media (min-width: 475px) {
-  .hero {
+  .hero-wrapper {
     gap: 1.5rem;
   }
   .hero-content {
@@ -102,7 +102,7 @@
 
 /* lg  */
 @media (min-width: 1024px) {
-  .hero {
+  .hero-wrapper {
     flex-direction: row;
     text-align: start;
     justify-content: space-between;
@@ -145,6 +145,10 @@
 /* xl */
 @media (min-width: 1280px) {
   .hero {
+    display: flex;
+    justify-content: center;
+  }
+  .hero-wrapper {
     min-width: 1024px;
   }
 }

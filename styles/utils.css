@@ -121,8 +121,6 @@
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    display: flex;
-    justify-content: center;
   }
 }
 /* 2xl   */
