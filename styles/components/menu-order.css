@@ -1,3 +1,23 @@
 .menu-order {
   background-color: #dcb288;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+}
+.menu-order-wrapper {
+  margin-top: 2rem;
+  flex: 1;
+  text-align: center;
+}
+.menu-order-title {
+  font-size: var(--size-8xl);
+  color: var(--clr-amber-dark);
+  -webkit-text-fill-color: var(--clr-cream);
+  -webkit-text-stroke: 3px var(--clr-amber-dark);
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+.menu-order-subtitle {
+  color: var(--clr-amber-dark);
 }
